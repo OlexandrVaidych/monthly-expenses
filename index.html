@@ -5,40 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monthly Expenses</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="monthlyExpense.js"></script>
 </head>
 <body>
     <div class="container">
         <form>
             <div class="form-group">
                 <label for="food">Food:</label>
-                <input type="text" id="food" name="food" value=""><br>
+                <input type="text" id="food" name="food" value="0"><br>
             </div>
             <div class="form-group">
                 <label for="internet">Internet:</label>
-                <input type="text" id="internet" name="internet" value=""><br>
+                <input type="text" id="internet" name="internet" value="0"><br>
             </div>
             <div class="form-group">
                 <label for="light">Light:</label>
-                <input type="text" id="light" name="light" value=""><br>
+                <input type="text" id="light" name="light" value="0"><br>
             </div>
             <div class="form-group">
                 <label for="tariff">Mobile Tariff:</label>
-                <input type="text" id="tariff" name="tariff" value=""><br>
+                <input type="text" id="tariff" name="tariff" value="0"><br>
             </div>
             <div class="form-group">
                 <label for="house">House Rent:</label>
-                <input type="text" id="house" name="house" value=""><br>
+                <input type="text" id="house" name="house" value="0"><br>
             </div>
             <div class="form-group">
                 <label for="clothes">Clothes:</label>
-                <input type="text" id="clothes" name="clothes" value=""><br>
+                <input type="text" id="clothes" name="clothes" value="0"><br>
             </div>
             <div class="form-group">
                 <label for="rest">Rest:</label>
-                <input type="text" id="rest" name="rest" value=""><br>
+                <input type="text" id="rest" name="rest" value="0"><br>
             </div>
             <div class="form-button">
-                <button>Calculate monthly expenses</button>
+                <button type="button" onclick="calculateMonthlyExpense()">Calculate monthly expenses</button>
             </div>
           </form>
     </div>
