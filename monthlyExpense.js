@@ -9,5 +9,7 @@ function calculateMonthlyExpense(){
 
     monthlyExpense = foodPrice + internetPrice + lightPrice + tariffPrice + houseRentPrice + clothesPrice + restPrice
     
-    alert(monthlyExpense)
+    const displayExpense = document.getElementById("expense")
+    displayExpense.innerHTML = `Monthly Expense: ${monthlyExpense}`
+    displayExpense.classList.add("expense")
 }
