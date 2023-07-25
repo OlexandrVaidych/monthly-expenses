@@ -46,6 +46,13 @@ input {
 button {
     padding: 10px 20px;
     background-color: #34b53d;
+    border-radius: 5px;
+    border-style: none;
+  }
+
+button:hover {
+    background-color: #54b75b;
+    cursor: pointer;
   }
 
 .expense {
